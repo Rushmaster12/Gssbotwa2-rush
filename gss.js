@@ -4496,7 +4496,7 @@ break;
 case 'ping': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
-  await doReact("🕘");
+  await doReact("🚩");
   const startTime = new Date();
   const pingMsg = await gss.sendMessage(m.chat, { text: '*cheking...*' });
 
@@ -4505,11 +4505,11 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*Pong:* ${new Date() - startTime} ms`
+          conversation: `*𝞒𝙐𝙎𝞖 𝞛𝞓𝙎𝙏𝞢𝞒:* ${new Date() - startTime} ms`
         }
       }
     }, {});
-     await doReact("📍");
+     await doReact("🚩");
   } 
 break;
 
