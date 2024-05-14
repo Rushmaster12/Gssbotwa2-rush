@@ -4505,7 +4505,7 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*𝞒𝙐𝙎𝞖 𝞛𝞓𝙎𝙏𝞢𝞒:* ${new Date() - startTime} ms`
+          conversation: `*𝞒𝙐𝙎𝞖 𝞛𝞓𝙎𝙏𝞢𝞒 🚩:* ${new Date() - startTime} ms`
         }
       }
     }, {});
